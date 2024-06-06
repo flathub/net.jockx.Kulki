@@ -18,7 +18,7 @@ modules:
       - install -D "$FLATPAK_DEST/lib/Kulki.metainfo.xml" "/app/share/metainfo/${FLATPAK_ID}.metainfo.xml"
     sources:
       - type: archive
-        url: https://github.com/jockx-net/kulki/releases/download/v1.0.0/Kulki-1.0.0.tar.gz
-        sha256: 0f2408f616691c304cb715929431dfe92d295cfcfbe06640fb34e58b2c04b5b4
+        url: https://github.com/jockx-net/kulki/releases/download/v1.0.1/Kulki-1.0.1.tar.gz
+        sha256: c8ced3e78873a71962ba02a1d878241392d0c856b00abcc0884abda51220edc5
     only-arches:
       - x86_64
